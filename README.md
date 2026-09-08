@@ -68,23 +68,80 @@ Los ejercicios presentan una evolución desde un programa básico hasta la imple
 
 ### Descripción
 
-El primer ejercicio presenta una implementación básica relacionada con un **libro de calificaciones**.
+En el primer ejercicio se introduce el concepto de **clase y objeto** mediante una implementación sencilla de un libro de calificaciones.
 
-El programa muestra un mensaje de bienvenida utilizando la consola de C#, sirviendo como introducción a la estructura de un programa y al uso de `Console.WriteLine()`.
+Se crea la clase `LibroCalificacion`, la cual contiene el método público `MostrarMensaje()`. Este método se encarga de mostrar en consola un mensaje de bienvenida al usuario.
 
-### Conceptos aplicados
+Desde el programa principal `Program.cs`, se crea una instancia de la clase mediante `new` y posteriormente se invoca el método `MostrarMensaje()`.
 
-* Estructura básica de un programa en C#.
-* Método `Main()`.
+### Estructura principal
+
+```text
+Program.cs
+    │
+    ▼
+Crear objeto LibroCalificacion
+    │
+    ▼
+new LibroCalificacion()
+    │
+    ▼
+Llamar al método MostrarMensaje()
+    │
+    ▼
+Mostrar mensaje en consola
+```
+
+### Clase `LibroCalificacion`
+
+La clase contiene el método `MostrarMensaje()`, encargado de mostrar el mensaje de bienvenida:
+
+```csharp
+public class LibroCalificacion
+{
+    public void MostrarMensaje()
+    {
+        Console.WriteLine("Bienvenido al libro de calificaciones.");
+    }
+}
+```
+
+### Programa principal
+
+En `Program.cs` se crea un objeto de la clase `LibroCalificacion` y se utiliza para llamar al método `MostrarMensaje()`:
+
+```csharp
+LibroCalificacion Mylibro = new LibroCalificacion();
+
+Mylibro.MostrarMensaje();
+```
+
+Además, el programa imprime inicialmente un mensaje mediante:
+
+```csharp
+Console.WriteLine("Hello World");
+```
+
+### Conceptos de POO aplicados
+
+* Definición de una clase mediante `class`.
+* Creación de objetos.
+* Instanciación mediante `new`.
+* Métodos.
+* Modificador de acceso `public`.
+* Comunicación entre el programa principal y una clase.
 * Uso de `Console.WriteLine()`.
 * Espacios de nombres mediante `namespace`.
-* Ejecución de una aplicación de consola.
 
 ### Ejemplo de salida
 
 ```text
-Hola Bienvenido al Libro de calificaciones.
+Hello World
+Bienvenido al libro de calificaciones.
 ```
+
+Este ejercicio representa el primer acercamiento a la creación de clases y objetos en C#, sirviendo como base para los conceptos de Programación Orientada a Objetos desarrollados en los siguientes problemas.
+
 
 ---
 
