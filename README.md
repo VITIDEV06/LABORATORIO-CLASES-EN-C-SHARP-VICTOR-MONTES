@@ -43,7 +43,7 @@
 | **Paradigma**              | Programación Orientada a Objetos  |
 | **Autor**                  | Victor Montes                     |
 | **Universidad**            | Universidad Tecnológica de Panamá |
-| **Fecha**                  | 15/09/2026                        |
+| **Fecha**                  | 06/09/2026                        |
 
 ---
 
@@ -978,7 +978,7 @@ El laboratorio permitió trabajar de manera práctica con los fundamentos inicia
 
 **Laboratorio #2 — Clases en C#**
 
-**15/09/2026**
+**06/09/2026**
 
 </div>
 
