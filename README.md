@@ -77,59 +77,72 @@ flowchart LR
 
 <table>
 <tr>
+
 <td align="center">
 
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/csharp.svg" width="65" height="65" alt="C#">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="65" height="65" alt="C#">
 
 **C#**
 
 </td>
+
 <td align="center">
 
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/dotnet.svg" width="65" height="65" alt=".NET">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" width="65" height="65" alt=".NET">
 
 **.NET**
 
 </td>
+
 <td align="center">
 
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/visualstudio.svg" width="65" height="65" alt="Visual Studio">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-plain.svg" width="65" height="65" alt="Visual Studio">
 
 **Visual Studio**
 
 </td>
+
 <td align="center">
+
+<img src="https://img.icons8.com/fluency/96/module.png" width="65" height="65" alt="Class">
 
 **CLASS**
 
-Clase
-
 </td>
+
 <td align="center">
+
+<img src="https://img.icons8.com/fluency/96/box.png" width="65" height="65" alt="Object">
 
 **OBJECT**
 
-Objeto
-
 </td>
+
 <td align="center">
+
+<img src="https://img.icons8.com/fluency/96/code.png" width="65" height="65" alt="Method">
 
 **METHOD**
 
-Método
-
 </td>
+
 <td align="center">
+
+<img src="https://img.icons8.com/fluency/96/synchronize.png" width="65" height="65" alt="Get Set">
 
 **GET / SET**
 
 Propiedad
 
 </td>
+
 </tr>
 </table>
 
 </div>
+
+
+
 
 ---
 
@@ -143,7 +156,7 @@ Propiedad
 <td align="center" width="150">
 
 <a href="https://learn.microsoft.com/en-us/dotnet/csharp/">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/csharp.svg" width="105" height="105" alt="C#">
+<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" width="105" height="105" alt="C#">
 </a>
 
 <br>
@@ -155,7 +168,7 @@ Propiedad
 <td align="center" width="150">
 
 <a href="https://dotnet.microsoft.com/">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/dotnet.svg" width="105" height="105" alt=".NET">
+<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" width="105" height="105" alt=".NET">
 </a>
 
 <br>
@@ -167,7 +180,7 @@ Propiedad
 <td align="center" width="150">
 
 <a href="https://visualstudio.microsoft.com/">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/visualstudio.svg" width="105" height="105" alt="Visual Studio">
+<img src="https://img.shields.io/badge/VS-5C2D91?style=flat-square&logo=visualstudio&logoColor=white" width="105" height="105" alt="Visual Studio">
 </a>
 
 <br>
@@ -179,7 +192,7 @@ Propiedad
 <td align="center" width="150">
 
 <a href="https://git-scm.com/">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/git.svg" width="90" height="90" alt="Git">
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" width="90" height="90" alt="Git">
 </a>
 
 <br>
@@ -191,7 +204,7 @@ Propiedad
 <td align="center" width="150">
 
 <a href="https://github.com/">
-<img src="https://cdn.simpleicons.org/github/ffffff/000000" width="90" height="90" alt="GitHub">
+<img src="https://img.shields.io/badge/GitHub-24292F?style=flat-square&logo=github&logoColor=white" width="90" height="90" alt="GitHub">
 </a>
 
 <br>
@@ -204,6 +217,7 @@ Propiedad
 </table>
 
 </div>
+
 
 ### Herramientas
 
@@ -889,8 +903,7 @@ El laboratorio permitió trabajar de manera práctica con los fundamentos inicia
 
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/csharp.svg" width="75" height="75" alt="C#">
-
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="75" height="75" alt="C#">
 <br>
 
 ## Victor Montes
@@ -1003,29 +1016,71 @@ El laboratorio permitió trabajar de manera práctica con los fundamentos inicia
 
 <div align="center">
 
+<table>
+<tr>
+
+<td align="center" width="150">
+
 <a href="https://learn.microsoft.com/en-us/dotnet/csharp/">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/csharp.svg" width="80" height="80" alt="C#">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="80" height="80" alt="C#">
 </a>
-&nbsp;&nbsp;&nbsp;&nbsp;
+
+<br>
+
+<b>C#</b>
+
+</td>
+
+<td align="center" width="150">
 
 <a href="https://dotnet.microsoft.com/">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/dotnet.svg" width="80" height="80" alt=".NET">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" width="80" height="80" alt=".NET">
 </a>
-&nbsp;&nbsp;&nbsp;&nbsp;
+
+<br>
+
+<b>.NET</b>
+
+</td>
+
+<td align="center" width="150">
 
 <a href="https://visualstudio.microsoft.com/">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/visualstudio.svg" width="80" height="80" alt="Visual Studio">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-plain.svg" width="80" height="80" alt="Visual Studio">
 </a>
-&nbsp;&nbsp;&nbsp;&nbsp;
+
+<br>
+
+<b>Visual Studio</b>
+
+</td>
+
+<td align="center" width="150">
 
 <a href="https://git-scm.com/">
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/git.svg" width="70" height="70" alt="Git">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="80" height="80" alt="Git">
 </a>
-&nbsp;&nbsp;&nbsp;&nbsp;
+
+<br>
+
+<b>Git</b>
+
+</td>
+
+<td align="center" width="150">
 
 <a href="https://github.com/">
-<img src="https://cdn.simpleicons.org/github/ffffff/000000" width="70" height="70" alt="GitHub">
+<img src="https://cdn.simpleicons.org/github/ffffff" width="80" height="80" alt="GitHub">
 </a>
+
+<br>
+
+<b>GitHub</b>
+
+</td>
+
+</tr>
+</table>
 
 </div>
 
