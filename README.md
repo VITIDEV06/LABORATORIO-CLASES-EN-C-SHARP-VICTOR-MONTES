@@ -235,34 +235,28 @@ El laboratorio presenta una evolución desde una clase sencilla hasta una clase 
 
 ```mermaid
 flowchart TD
+    A["CLASE - LibroCalificaciones"] --> B["OBJETO - new LibroCalificaciones()"]
+    B --> C["METODO - MostrarMensaje()"]
+    C --> D["SALIDA - Mensaje en consola"]
 
-    A["CLASE<br/>LibroCalificaciones"] --> B["OBJETO<br/>new LibroCalificaciones()"]
+    A --> E["CONSTRUCTOR - LibroCalificaciones(nombre)"]
+    E --> F["PROPIEDAD - NombreCurso"]
+    F --> G["GET - Obtener valor"]
+    F --> H["SET - Modificar valor"]
 
-    B --> C["MÉTODO<br/>MostrarMensaje()"]
+    classDef main fill:#111827,stroke:#38BDF8,color:#FFFFFF,stroke-width:3px
+    classDef object fill:#172554,stroke:#60A5FA,color:#FFFFFF,stroke-width:3px
+    classDef method fill:#064E3B,stroke:#34D399,color:#FFFFFF,stroke-width:3px
+    classDef constructor fill:#3B0764,stroke:#C084FC,color:#FFFFFF,stroke-width:3px
+    classDef property fill:#7C2D12,stroke:#FB923C,color:#FFFFFF,stroke-width:3px
+    classDef access fill:#713F12,stroke:#FACC15,color:#FFFFFF,stroke-width:3px
 
-    C --> D["SALIDA<br/>Mensaje en consola"]
-
-    A --> E["CONSTRUCTOR<br/>LibroCalificaciones(nombre)"]
-
-    E --> F["PROPIEDAD<br/>NombreCurso"]
-
-    F --> G["GET<br/>Obtener valor"]
-
-    F --> H["SET<br/>Modificar valor"]
-
-    classDef main fill:#111827,stroke:#38BDF8,color:#FFFFFF,stroke-width:3px;
-    classDef object fill:#172554,stroke:#60A5FA,color:#FFFFFF,stroke-width:3px;
-    classDef method fill:#064E3B,stroke:#34D399,color:#FFFFFF,stroke-width:3px;
-    classDef constructor fill:#3B0764,stroke:#C084FC,color:#FFFFFF,stroke-width:3px;
-    classDef property fill:#7C2D12,stroke:#FB923C,color:#FFFFFF,stroke-width:3px;
-    classDef access fill:#713F12,stroke:#FACC15,color:#FFFFFF,stroke-width:3px;
-
-    class A main;
-    class B object;
-    class C,D method;
-    class E constructor;
-    class F property;
-    class G,H access;
+    class A main
+    class B object
+    class C,D method
+    class E constructor
+    class F property
+    class G,H access
 ```
 
 ---
