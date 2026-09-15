@@ -6,7 +6,7 @@
 
 <br>
 
-<img src="assets/banner-laboratorio-csharp.png" alt="Banner Laboratorio C#">
+<img src="assets/banner-laboratorio-csharp.jpg" alt="Banner Laboratorio C#">
 
 <br><br>
 
