@@ -376,26 +376,20 @@ Actividad 2 - Consola/
 ```mermaid
 flowchart TD
 
-    A["INICIO"] --> B["Crear objeto"]
-    B --> C["LibroCalificaciones"]
-    C --> D["Solicitar nombre del curso"]
-    D --> E["Console.ReadLine()"]
-    E --> F["Guardar nombreCurso"]
-    F --> G["MostrarMensaje(nombreCurso)"]
-    G --> H["Mostrar mensaje personalizado"]
-    H --> I["FIN"]
+    A["INICIO"]:::start --> B["Crear objeto"]:::process
+    B --> C["LibroCalificaciones"]:::process
+    C --> D["Solicitar nombre del curso"]:::input
+    D --> E["Console.ReadLine()"]:::input
+    E --> F["Guardar nombreCurso"]:::input
+    F --> G["MostrarMensaje(nombreCurso)"]:::method
+    G --> H["Mostrar mensaje personalizado"]:::method
+    H --> I["FIN"]:::finish
 
     classDef start fill:#052E16,stroke:#4ADE80,color:#FFFFFF,stroke-width:3px;
     classDef process fill:#172554,stroke:#60A5FA,color:#FFFFFF,stroke-width:3px;
     classDef input fill:#713F12,stroke:#FACC15,color:#FFFFFF,stroke-width:3px;
     classDef method fill:#3B0764,stroke:#C084FC,color:#FFFFFF,stroke-width:3px;
-    classDef end fill:#450A0A,stroke:#F87171,color:#FFFFFF,stroke-width:3px;
-
-    class A start;
-    class B,C process;
-    class D,E,F input;
-    class G,H method;
-    class I end;
+    classDef finish fill:#450A0A,stroke:#F87171,color:#FFFFFF,stroke-width:3px;
 ```
 
 ## Funcionamiento
@@ -420,27 +414,95 @@ El método utiliza el parámetro recibido para construir el mensaje mostrado en 
 
 <div align="center">
 
-**USUARIO**
+<table>
+<tr>
 
-↓
+<td align="center">
+<img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/OOjs_UI_icon_userAvatarOutline-invert.svg" width="55" height="55" alt="Usuario">
+<br>
+<b>USUARIO</b>
+</td>
 
-**INGRESA NOMBRE DEL CURSO**
+<td align="center">→</td>
 
-↓
+<td align="center">
+<img src="https://img.icons8.com/fluency/96/edit-property.png" width="55" height="55" alt="Entrada">
+<br>
+<b>ENTRADA</b>
+</td>
 
-**Console.ReadLine()**
+<td align="center">→</td>
 
-↓
+<td align="center">
+<img src="https://img.icons8.com/fluency/96/console.png" width="55" height="55" alt="Lectura">
+<br>
+<b>LECTURA</b>
+</td>
 
-**nombreCurso**
+<td align="center">→</td>
 
-↓
+<td align="center">
+<img src="https://img.icons8.com/fluency/96/variable.png" width="55" height="55" alt="Variable">
+<br>
+<b>VARIABLE</b>
+</td>
 
-**MostrarMensaje(nombreCurso)**
+<td align="center">→</td>
 
-↓
+<td align="center">
+<img src="https://img.icons8.com/fluency/96/code.png" width="55" height="55" alt="Método">
+<br>
+<b>MÉTODO</b>
+</td>
 
-**MENSAJE PERSONALIZADO**
+<td align="center">→</td>
+
+<td align="center">
+<img src="https://img.icons8.com/fluency/96/speech-bubble.png" width="55" height="55" alt="Resultado">
+<br>
+<b>RESULTADO</b>
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center">
+Interacción
+</td>
+
+<td></td>
+
+<td align="center">
+<b>Nombre del curso</b>
+</td>
+
+<td></td>
+
+<td align="center">
+<code>Console.ReadLine()</code>
+</td>
+
+<td></td>
+
+<td align="center">
+<code>nombreCurso</code>
+</td>
+
+<td></td>
+
+<td align="center">
+<code>MostrarMensaje()</code>
+</td>
+
+<td></td>
+
+<td align="center">
+<b>Mensaje personalizado</b>
+</td>
+
+</tr>
+</table>
 
 </div>
 
